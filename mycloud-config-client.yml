@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: mycloudconfig-test-client5
+      name: mycloud-test-client5
 
 eureka:
  client:
@@ -18,7 +18,7 @@ eureka:
   register-with-eureka: false
 
 info:
-  app.name: mycloudconfig-config-client-dev2
+  app.name: mycloud-config-client-dev2
   company.name: enjoy2
 ---
 server:
@@ -27,7 +27,7 @@ server:
 spring:
   profiles: beta
   application:
-      name: mycloudconfig-test-client5
+      name: mycloud-test-client5
 
 eureka:
  client:
@@ -36,5 +36,5 @@ eureka:
   register-with-eureka: false
   
 info:
-  app.name: mycloudconfig-config-client-beta2
+  app.name: mycloud-config-client-beta2
   company.name: sg
