@@ -21,7 +21,7 @@ spring:
 
 logging:
   level:
-    cn.sg.mapper: debug
+    cn.sg.mycloud.mapper: debug
 
 eureka:
   client: # 客户端进行Eureka注册的配置
@@ -65,7 +65,7 @@ spring:
 
 logging:
   level:
-    cn.sg.mapper: debug
+    cn.sg.mycloud.mapper: debug
 
 eureka:
   client: # 客户端进行Eureka注册的配置
