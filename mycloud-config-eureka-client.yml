@@ -23,7 +23,7 @@ spring:
       name: admin
       password: 87654321
   application:
-    name: mycloudconfig-config-eureka-client
+    name: mycloud-config-eureka-client
 ---
 server:
  port: 7002
@@ -45,4 +45,4 @@ spring:
       name: admin
       password: 87654321
   application:
-    name: mycloudconfig-config-eureka-client
+    name: mycloud-config-eureka-client
