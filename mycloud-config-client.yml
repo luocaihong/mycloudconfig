@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: mycloud-test-client5
+      name: mycloud-test-client
 
 eureka:
  client:
@@ -18,8 +18,8 @@ eureka:
   register-with-eureka: false
 
 info:
-  app.name: mycloud-config-client-dev2
-  company.name: enjoy2
+  app.name: mycloud-config-client-dev
+  company.name: sg
 ---
 server:
   port: 8102
@@ -27,7 +27,7 @@ server:
 spring:
   profiles: beta
   application:
-      name: mycloud-test-client5
+      name: mycloud-test-client
 
 eureka:
  client:
@@ -36,5 +36,5 @@ eureka:
   register-with-eureka: false
   
 info:
-  app.name: mycloud-config-client-beta2
+  app.name: mycloud-config-client-beta
   company.name: sg
